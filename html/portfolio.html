@@ -1,0 +1,370 @@
+<html>
+
+<head>
+    <title>PORTFOLIO</title>
+    <link rel="icon" href="../img/Shoyeb Mohammed Suny.png" type="image/x-icon">
+    <meta property="og:type" content="Website">
+    <meta property="og:url" content="https://suny4.netlify.app/">
+    <meta property="og:title" content="Shoyeb Mohammed Suny">
+    <meta property="og:description" content="Welcome to my site.I hope my work will refresh your mind.">
+    <meta property="og:image" content="../img/WEBSITE BANNER.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/portfolio.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <!----------------------   Color Changer Section Start ------------------------------>
+    <div class="container">
+        <ul class="color-changer">
+            <li>
+                <a href="#" data-theme="green"></a>
+            </li>
+            <li>
+                <a href="#" data-theme="orange"></a>
+            </li>
+            <li>
+                <a href="#" data-theme="yellow"></a>
+            </li>
+            <li>
+                <a href="#" data-theme="pink"></a>
+            </li>
+            <li>
+                <a href="#" data-theme="red"></a>
+            </li>
+        </ul>
+    </div>
+    <!----------------------   Color Changer Section END ------------------------------>
+    <!--------------------   NAVBAR & SIDEBAR START ---------------------------->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="navbar-brand mr-auto" href="#">
+                <h2>MY <span class="theme-color">PORTFOLIO</span></h2>
+            </div>
+            <button class="navbar-toggler d-block" type="button" id="navToggle"> <span class="navbar-toggler-icon"><i
+                        class="fas fa-bars fa-2x" style="color:white"></i></span>
+            </button>
+            <div class="navbar-collapse offcanvas-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li> <a class="nav-link" href="../index.html"><i class="fa fa-home"></i> &nbsp; HOME</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="../html/about me.html"><i class="fa fa-user"></i>
+                            &nbsp; ABOUT</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link active" href="../html/portfolio.html"><i
+                                class="fa fa-briefcase"></i>
+                            &nbsp; PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="../html/contact.html"><i
+                                class="fa fa-envelope-open"></i>
+                            &nbsp; CONTACT</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="../html/blog.html"><i class="fa fa-comments"></i>
+                            &nbsp;
+                            BLOG</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <button id="btn">
+                        <a href="../index.html"> <span>&nbsp; HOME &nbsp;</span><i class="fa fa-home fa-2x"></i>
+                        </a>
+                    </button>
+                </li>
+                <li>
+                    <button id="btn">
+                        <a href="../html/about me.html"> <span>&nbsp; ABOUT &nbsp;</span><i
+                                class="fa fa-user fa-2x"></i>
+                        </a>
+                    </button>
+                </li>
+                <li>
+                    <button id="btn" class="active">
+                        <a href="../html/portfolio.html"> <span>&nbsp; PORTFOLIO &nbsp;</span><i
+                                class="fa fa-briefcase fa-2x"></i>
+                        </a>
+                    </button>
+                </li>
+                <li>
+                    <button id="btn">
+                        <a href="../html/contact.html"> <span>&nbsp; CONTACT &nbsp;</span><i
+                                class="fa fa-envelope-open fa-2x"></i>
+                        </a>
+                    </button>
+                </li>
+                <li>
+                    <button id="btn">
+                        <a href="../html/blog.html"> <span>&nbsp; BLOG &nbsp;</span><i class="fa fa-comments fa-2x"></i>
+                        </a>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--------------------   NAVBAR & SIDEBAR END  ---------------------------->
+    <!--------------------   MAIN SECTION START  ---------------------------->
+    <div class="container main mx-auto">
+        <div class="row title">
+            <div class="col text-center">
+                <h1>MY <span class="theme-color">PORFOLIO</span></h1>
+                <span class="title-bg">WORKS</span>
+            </div>
+        </div>
+        <div class="row main-img">
+            <div class="col-lg-4 col-md-6 my-3 hover-mask">
+                <a href="#" title="">
+                    <img src="../img/project-1.jpg" alt="" />
+                    <h2 onclick="openModal();currentSlide(1)">
+                        <div class="text">IMAGE PROJECT</div>
+                    </h2>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 my-3 hover-mask">
+                <a href="#" title="">
+                    <img src="../img/project-2.jpg" alt="" />
+                    <h2 onclick="openModal();currentSlide(2)">
+                        <div class="text">YOUTUBE PROJECT</div>
+                    </h2>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 my-3 hover-mask">
+                <a href="#" title="">
+                    <img src="../img/project-3.jpg" alt="" />
+                    <h2 onclick="openModal();currentSlide(3)">
+                        <div class="text">SLIDER PROJECT</div>
+                    </h2>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 my-3 hover-mask">
+                <a href="#" title="">
+                    <img src="../img/project-4.jpg" alt="" />
+                    <h2 onclick="openModal();currentSlide(4)">
+                        <div class="text">VIDEO PROJECT</div>
+                    </h2>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 my-3 hover-mask">
+                <a href="#" title="">
+                    <img src="../img/project-5.jpg" alt="" />
+                    <h2 onclick="openModal();currentSlide(5)">
+                        <div class="text">GRAPHIC PROJECT</div>
+                    </h2>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 my-3 hover-mask">
+                <a href="#" title="">
+                    <img src="../img/project-6.jpg" alt="" />
+                    <h2 onclick="openModal();currentSlide(6)">
+                        <div class="text">DESIGN PROJECT</div>
+                    </h2>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 my-3 hover-mask">
+                <a href="#" title="">
+                    <img src="../img/project-7.jpg" alt="" />
+                    <h2 onclick="openModal();currentSlide(7)">
+                        <div class="text">IMAGE PROJECT</div>
+                    </h2>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 my-3 hover-mask">
+                <a href="#" title="">
+                    <img src="../img/project-8.jpg" alt="" />
+                    <h2 onclick="openModal();currentSlide(8)">
+                        <div class="text">IMAGE PROJECT</div>
+                    </h2>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 my-3 hover-mask">
+                <a href="#" title="">
+                    <img src="../img/project-9.jpg" alt="" />
+                    <h2 onclick="openModal();currentSlide(9)">
+                        <div class="text">IMAGE PROJECT</div>
+                    </h2>
+                </a>
+            </div>
+        </div>
+        <div id="myModal" class="modal"> <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+                <div class="mySlides">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title text-center py-3 theme-color">IMAGE PROJECT</h2>
+                            <div class="row pb-3">
+                                <div class="col-md-6"> <i class="fas fa-file-alt"></i> &nbsp; Project : Website
+                                    <br> <i class="fas fa-code"></i>&nbsp; Langages : HTML, CSS, Javascript
+                                    <br>
+                                </div>
+                                <div class="col-md-6"> <i class="fas fa-user"></i>&nbsp; Client : Envato
+                                    <br> <i class="fas fa-external-link-alt"></i>&nbsp; Preview : www.envato.com
+                                    <br>
+                                </div>
+                            </div>
+                            <img class="card-img-top" src="../img/project-1.jpg" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+                <div class="mySlides">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title text-center py-3 theme-color">IMAGE PROJECT</h2>
+                            <div class="row pb-3">
+                                <div class="col-md-6"> <i class="fas fa-file-alt"></i> &nbsp; Project : Website
+                                    <br> <i class="fas fa-code"></i>&nbsp; Langages : HTML, CSS, Javascript
+                                    <br>
+                                </div>
+                                <div class="col-md-6"> <i class="fas fa-user"></i>&nbsp; Client : Envato
+                                    <br> <i class="fas fa-external-link-alt"></i>&nbsp; Preview : www.envato.com
+                                    <br>
+                                </div>
+                            </div>
+                            <img class="card-img-top" src="../img/project-2.jpg" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+                <div class="mySlides">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title text-center py-3 theme-color">IMAGE PROJECT</h2>
+                            <div class="row pb-3">
+                                <div class="col-md-6"> <i class="fas fa-file-alt"></i> &nbsp; Project : Website
+                                    <br> <i class="fas fa-code"></i>&nbsp; Langages : HTML, CSS, Javascript
+                                    <br>
+                                </div>
+                                <div class="col-md-6"> <i class="fas fa-user"></i>&nbsp; Client : Envato
+                                    <br> <i class="fas fa-external-link-alt"></i>&nbsp; Preview : www.envato.com
+                                    <br>
+                                </div>
+                            </div>
+                            <img class="card-img-top" src="../img/project-3.jpg" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+                <div class="mySlides">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title text-center py-3 theme-color">IMAGE PROJECT</h2>
+                            <div class="row pb-3">
+                                <div class="col-md-6"> <i class="fas fa-file-alt"></i> &nbsp; Project : Website
+                                    <br> <i class="fas fa-code"></i>&nbsp; Langages : HTML, CSS, Javascript
+                                    <br>
+                                </div>
+                                <div class="col-md-6"> <i class="fas fa-user"></i>&nbsp; Client : Envato
+                                    <br> <i class="fas fa-external-link-alt"></i>&nbsp; Preview : www.envato.com
+                                    <br>
+                                </div>
+                            </div>
+                            <img class="card-img-top" src="../img/project-4.jpg" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+                <div class="mySlides">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title text-center py-3 theme-color">IMAGE PROJECT</h2>
+                            <div class="row pb-3">
+                                <div class="col-md-6"> <i class="fas fa-file-alt"></i> &nbsp; Project : Website
+                                    <br> <i class="fas fa-code"></i>&nbsp; Langages : HTML, CSS, Javascript
+                                </div>
+                                <div class="col-md-6"> <i class="fas fa-user"></i>&nbsp; Client : Envato
+                                    <br> <i class="fas fa-external-link-alt"></i>&nbsp; Preview : www.envato.com
+                                </div>
+                            </div>
+                            <img class="card-img-top" src="../img/project-5.jpg" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+                <div class="mySlides">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title text-center py-3 theme-color">IMAGE PROJECT</h2>
+                            <div class="row pb-3">
+                                <div class="col-md-6"> <i class="fas fa-file-alt"></i> &nbsp; Project : Website
+                                    <br> <i class="fas fa-code"></i>&nbsp; Langages : HTML, CSS, Javascript
+                                    <br>
+                                </div>
+                                <div class="col-md-6"> <i class="fas fa-user"></i>&nbsp; Client : Envato
+                                    <br> <i class="fas fa-external-link-alt"></i>&nbsp; Preview : www.envato.com
+                                    <br>
+                                </div>
+                            </div>
+                            <img class="card-img-top" src="../img/project-6.jpg" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+                <div class="mySlides">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title text-center py-3 theme-color">IMAGE PROJECT</h2>
+                            <div class="row pb-3">
+                                <div class="col-md-6"> <i class="fas fa-file-alt"></i> &nbsp; Project : Website
+                                    <br> <i class="fas fa-code"></i>&nbsp; Langages : HTML, CSS, Javascript
+                                    <br>
+                                </div>
+                                <div class="col-md-6"> <i class="fas fa-user"></i>&nbsp; Client : Envato
+                                    <br> <i class="fas fa-external-link-alt"></i>&nbsp; Preview : www.envato.com
+                                    <br>
+                                </div>
+                            </div>
+                            <img class="card-img-top" src="../img/project-7.jpg" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+                <div class="mySlides">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title text-center py-3 theme-color">IMAGE PROJECT</h2>
+                            <div class="row pb-3">
+                                <div class="col-md-6"> <i class="fas fa-file-alt"></i> &nbsp; Project : Website
+                                    <br> <i class="fas fa-code"></i>&nbsp; Langages : HTML, CSS, Javascript
+                                    <br>
+                                </div>
+                                <div class="col-md-6"> <i class="fas fa-user"></i>&nbsp; Client : Envato
+                                    <br> <i class="fas fa-external-link-alt"></i>&nbsp; Preview : www.envato.com
+                                    <br>
+                                </div>
+                            </div>
+                            <img class="card-img-top" src="../img/project-8.jpg" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+                <div class="mySlides">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title text-center py-3 theme-color">IMAGE PROJECT</h2>
+                            <div class="row pb-3">
+                                <div class="col-md-6"> <i class="fas fa-file-alt"></i> &nbsp; Project : Website
+                                    <br> <i class="fas fa-code"></i>&nbsp; Langages : HTML, CSS, Javascript
+                                    <br>
+                                </div>
+                                <div class="col-md-6"> <i class="fas fa-user"></i>&nbsp; Client : Envato
+                                    <br> <i class="fas fa-external-link-alt"></i>&nbsp; Preview : www.envato.com
+                                    <br>
+                                </div>
+                            </div>
+                            <img class="card-img-top" src="../img/project-9.jpg" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+            </div> <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+    <!--------------------   MAIN SECTION END  ---------------------------->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="../js/modal.js"></script>
+    <script src="../js/nav-toggle.js"></script>
+    <script src="../js/theme.js"></script>
+</body>
+
+</html>
